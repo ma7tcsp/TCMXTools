@@ -1,4 +1,4 @@
-# TCMXTools
+# TCMX Tools
 Tableau CMT tools for multi-site 
 
 Tableau Content Migration Tool (CMT) provides a very user-friendly way to copy workbooks between sites/servers and offers the ability to manipulate the workbooks being copied by changing data sources and such information inside the workbooks. Much of this can be done by scripting using the REST API and the Document API, however the GUI framework of CMT makes the entry point to this much lower and simpler. However, as of yet, CMT does not provide a way to easily copy a workbook to multiple sites without creating a plan for every single site. This type of scenario is very common when embedding Tableau and offering analytics for external clients, where each client has a different site. This tool aims to address this limitation by automatically generating multiple CMT plans, one for each site, and executing them on batch. The values for these sites are all parameterised via a simple csv file. 
